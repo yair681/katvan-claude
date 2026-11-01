@@ -1,0 +1,9 @@
+{
+  "name": "katvan-claude",
+  "private": true,
+  "description": "Katvan secret-answer bridge to Claude Code, for Render",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "@anthropic-ai/claude-code": "2.1.316" }
+}
